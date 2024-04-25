@@ -1,0 +1,107 @@
+.container{
+  width: 80%;
+  border-radius: 20px;
+  margin: auto;
+  background-color: white;
+  height: 1020px;
+}
+body{
+  background-color: #7e8358;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('assets/afg8.jpg');
+  height: 360px;
+  width: 100%;
+  background-size: cover;
+  flex-direction: column;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.header-h1{
+  background-color: rgb(105, 105, 157);
+  width: 300px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+.header-p{
+  background-color: rgb(47, 47, 74);
+  color:white;
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+  padding: 5px;
+}
+.h2{
+  
+  text-align: center;
+  padding-top: 20px;
+}
+.cont{
+  background-color: #c5cbb5;
+  margin-top: -20px;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  
+  text-align: center;
+}
+
+.content img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  
+}
+
+.card{
+  width: 45%;
+  background-color: #506652;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 5px;
+  align-items: center;
+  
+}
+.card img{
+  width: 150px;
+  height: 150px;
+  padding-right: 20px;
+}
+.card div{
+  width: 50%;
+}
+@media screen and (max-width:600px){
+     .container{
+      width: 100%;
+     }
+     .content{
+      flex-wrap: wrap;
+     }
+     .card{
+      width: 100%;
+      margin-top: 10px;
+     }
+}
+@media screen and (max-width:768px){
+  .container{
+   width: 100%;
+  }
+  .card{
+
+   width: 100%;
+   margin-top: 20px;
+   
+  }
+}
